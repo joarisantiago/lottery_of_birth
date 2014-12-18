@@ -9,9 +9,11 @@
  */
 angular.module('lotteryOfBirthApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.mapInit = function() { 
+    	var map = new Datamap({ element: document.getElementById('map') });
+    };
+
+    $scope.birth = function() { 
+    	
+    }
   });
