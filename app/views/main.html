@@ -1,7 +1,8 @@
-<div ng-controller="MainCtrl" ng-init="mapInit()">
+<div ng-controller="LotteryCtrl" ng-init="mapInit()">
   <div id="map"></div>
 
   <button ng-click="birth()">Birth</button>
 
   <h1 ng-show="chosenCountryName">You were born in {{ chosenCountryName }}</h1>
+  <p ng-show="chosenCountryName">{{ Countrydescription || "No description" }}</p>
 </div>
