@@ -8,7 +8,7 @@
  * Controller of the lotteryOfBirthApp
  */
 angular.module('lotteryOfBirthApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', ['$scope', 'randomizeBirth', function ($scope, randomizeBirth) {
 
     $scope.mapInit = function() { 
     	this.map = new Datamap({ element: document.getElementById('map') });
@@ -19,4 +19,4 @@ angular.module('lotteryOfBirthApp')
     		CAN: '#0fa0fa'
     	});
     };
-  });
+  }]);
