@@ -1,35 +1,35 @@
 'use strict';
 
 angular.module('lotteryOfBirthApp')
-  .service('randomizeBirth', function() {
-  	this.countryList = getCountryList();
-  	this.numCountries = getCountryList().length;
-  	this.countryKeyPair = getCountryKeyPair();
+  .service('randomizeBirth', ['country', function(country) {
+  	this.countryList = country.countryList;
+  	this.numCountries = this.countryList.length;
 
   	this.get = function () { 
   		var countries = this.countryList;
   		var rand = countries[Math.floor(Math.random() * countries.length)];
-  		return rand;
+  		var countryKey = rand['id']
+  		return countryKey;
   	};
-  });
+  }]);
 
-var getCountryList = function() {
-	var world = Datamap.prototype.worldTopo.objects.world.geometries;
+// var getCountryList = function() {
+// 	var world = Datamap.prototype.worldTopo.objects.world.geometries;
 	
-	var names = _.pluck(world, 'id');
-	var countryList = _.without(names, '-99');
+// 	var names = _.pluck(world, 'id');
+// 	var countryList = _.without(names, '-99');
 	
-	return countryList;
-};
+// 	return countryList;
+// };
 
-var getCountryKeyPair = function() { 
-	var world = Datamap.prototype.worldTopo.objects.world.geometries;
+// var getCountryKeyPair = function() { 
+// 	var world = Datamap.prototype.worldTopo.objects.world.geometries;
 
-	var keys = _.pluck(world, 'id');
-	var properties = _.pluck(world, 'properties');
-	var names = _.pluck(properties, 'name');
+// 	var keys = _.pluck(world, 'id');
+// 	var properties = _.pluck(world, 'properties');
+// 	var names = _.pluck(properties, 'name');
 
-	var countryKeyPair = _.object(keys, names);
+// 	var countryKeyPair = _.object(keys, names);
 
-	return countryKeyPair;
-}
+// 	return countryKeyPair;
+// }

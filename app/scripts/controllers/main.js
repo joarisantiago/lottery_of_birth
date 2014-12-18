@@ -13,22 +13,22 @@ angular.module('lotteryOfBirthApp')
   	$scope.colorSelected = '#0FA0FA';
   	$scope.colorDefault = '#ABDDA4';
 
-  	$scope.countryName = '';
+  	$scope.chosenCountryName = '';
 
     $scope.mapInit = function() { 
     	this.map = new Datamap({ element: document.getElementById('map') });
     };
 
     $scope.birth = function() {
-    	var country = randomizeBirth.get();
-    	var countryName = randomizeBirth.countryKeyPair[country];
+    	var countryKey = randomizeBirth.get();
+    	var countryEntry = _.findWhere(randomizeBirth.countryList, { id: countryKey })
+    	var chosenCountryName = countryEntry['name'];
 
     	// Update the map
-    	this.updateMap(country);
+    	this.updateMap(countryKey);
 
-    	// Update the country
-    	this.countryName = countryName;
-
+    	// Update the country name for view
+    	this.chosenCountryName = chosenCountryName;
     };
 
     $scope.updateMap = function(country) { 
@@ -36,7 +36,7 @@ angular.module('lotteryOfBirthApp')
     	data[country] = this.colorSelected;
 
     	// Unhighlight previously selected countries
-    	$(".datamaps-subunit").css('fill', this.colorDefault);
+    	$('.datamaps-subunit').css('fill', this.colorDefault);
 
     	this.map.updateChoropleth(data);
     };
