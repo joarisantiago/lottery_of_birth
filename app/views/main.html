@@ -1,8 +1,12 @@
 <div ng-controller="LotteryCtrl" ng-init="mapInit()">
   <div id="map"></div>
 
-  <button ng-click="birth()">Birth</button>
+  <div class="text-center birth">
+	  <button ng-click="birth()" class="btn btn-primary btn-lg" id="birth-btn">Get born</button>
+  </div>
 
-  <h1 ng-show="chosenCountryName">You were born in {{ chosenCountryName }}</h1>
-  <p ng-show="chosenCountryName">{{ Countrydescription || "No description" }}</p>
+  <div class="result" ng-show="chosenCountryName">
+	  <h1>You were born in {{ chosenCountryName }}</h1>
+	  <p>{{ Countrydescription || "No description" }}</p>
+  </div>
 </div>

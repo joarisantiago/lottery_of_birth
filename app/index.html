@@ -12,6 +12,8 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/bootstrap-lumen.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
     <!-- endbuild -->
   </head>
   <body ng-app="lotteryOfBirthApp">
@@ -19,17 +21,29 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Lottery of Birth</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://github.com/sungwoncho/lottery_of_birth">Github</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
     <!-- Add your site or application content here -->
     <div class="container">
-      <div class="header">
-        <h3 class="text-muted">lotteryOfBirth</h3>
-      </div>
 
       <div ng-view=""></div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
     </div>
 
 
