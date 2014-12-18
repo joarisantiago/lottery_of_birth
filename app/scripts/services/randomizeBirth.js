@@ -4,6 +4,7 @@ angular.module('lotteryOfBirthApp')
   .service('randomizeBirth', function() {
   	this.countryList = getCountryList();
   	this.numCountries = getCountryList().length;
+  	this.countryKeyPair = getCountryKeyPair();
 
   	this.get = function () { 
   		var countries = this.countryList;
@@ -20,3 +21,15 @@ var getCountryList = function() {
 	
 	return countryList;
 };
+
+var getCountryKeyPair = function() { 
+	var world = Datamap.prototype.worldTopo.objects.world.geometries;
+
+	var keys = _.pluck(world, 'id');
+	var properties = _.pluck(world, 'properties');
+	var names = _.pluck(properties, 'name');
+
+	var countryKeyPair = _.object(keys, names);
+
+	return countryKeyPair;
+}
