@@ -7,7 +7,7 @@
 
   <div class="result" ng-show="chosenCountryName">
 	  <h1>You were born in {{ chosenCountryName }}</h1>
-	  <p>{{ Countrydescription || "No description" }}</p>
+	  <p>{{ chosenCountryDescription || "No description yet." }} <a href="https://github.com/sungwoncho/lottery_of_birth" ng-hide="chosenCountryDescription">You can contribute.</a> </p>
 	  <tweet_button></tweet_button>
   </div>
 </div>

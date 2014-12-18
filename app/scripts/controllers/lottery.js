@@ -14,7 +14,7 @@ angular.module('lotteryOfBirthApp')
   	$scope.colorDefault = '#ABDDA4';
 
   	$scope.chosenCountryName = '';
-  	$scope.countryDescription = '';
+  	$scope.chosenCountryDescription = '';
 
     $scope.mapInit = function() { 
     	this.map = new Datamap({ element: document.getElementById('map') });
@@ -24,14 +24,14 @@ angular.module('lotteryOfBirthApp')
     	var countryKey = randomizeBirth.get();
     	var countryEntry = _.findWhere(randomizeBirth.countryList, { id: countryKey })
     	var chosenCountryName = countryEntry['name'];
-    	var chonseCountryDescription = countryEntry['description'];
+    	var chosenCountryDescription = countryEntry['description'];
 
     	// Update the map
     	this.updateMap(countryKey);
 
     	// Update the country name and description to be displayed
     	this.chosenCountryName = chosenCountryName;
-    	this.chonseCountryDescription = chonseCountryDescription;
+    	this.chosenCountryDescription = chosenCountryDescription;
 
       // Regenerate tweet button
       $('.tweet-btn iframe').remove();
@@ -39,7 +39,7 @@ angular.module('lotteryOfBirthApp')
           .addClass('twitter-share-button')
           .attr('href', 'http://twitter.com/share')
           .attr('data-url', 'http://sungwoncho.github.io/lottery_of_birth')
-          .attr('data-text', 'I took a #lotteryOfBirth and was born in ' + chosenCountryName + '. Where will you be born?');
+          .attr('data-text', 'I took a #LotteryOfBirth and was born in ' + chosenCountryName + '. Where will you be born?');
       $('.tweet-btn').append(tweetBtn);
       twttr.widgets.load();
 

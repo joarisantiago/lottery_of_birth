@@ -19,7 +19,7 @@ var countryList = [
    {  
       'id': 'ARE',
       'name': 'United Arab Emirates',
-      'description': ''
+      'description': 'The government will provide you with things like housing, education. You won\'t worry too much about your finances.'
    },
    {  
       'id': 'ARG',
@@ -44,7 +44,7 @@ var countryList = [
    {  
       'id': 'AUS',
       'name': 'Australia',
-      'description': ''
+      'description': 'You will enjoy a relatively peaceful lifestyle. But you have a higher chance of developing melanoma due to the lack of ozone layer.'
    },
    {  
       'id': 'AUT',
@@ -124,7 +124,7 @@ var countryList = [
    {  
       'id': 'BTN',
       'name': 'Bhutan',
-      'description': ''
+      'description': 'You are happy!'
    },
    {  
       'id': 'BWA',
@@ -139,7 +139,7 @@ var countryList = [
    {  
       'id': 'CAN',
       'name': 'Canada',
-      'description': ''
+      'description': 'You will learn to play ice hockey from the day your are born.'
    },
    {  
       'id': 'CHE',
@@ -154,7 +154,7 @@ var countryList = [
    {  
       'id': 'CHN',
       'name': 'China',
-      'description': ''
+      'description': 'Born in a suburban town, you have a low chance of overcoming social inequality.'
    },
    {  
       'id': 'CIV',
@@ -279,7 +279,7 @@ var countryList = [
    {  
       'id': 'FRA',
       'name': 'France',
-      'description': ''
+      'description': 'You will eat garlic bread for breakfast.'
    },
    {  
       'id': 'GUF',
@@ -419,7 +419,7 @@ var countryList = [
    {  
       'id': 'JPN',
       'name': 'Japan',
-      'description': ''
+      'description': 'You will find a modest living in a country with chronic economic depression.'
    },
    {  
       'id': 'KAZ',
@@ -444,7 +444,7 @@ var countryList = [
    {  
       'id': 'KOR',
       'name': 'South Korea',
-      'description': ''
+      'description': 'You will go through very competitive schooling and if unsuccessful, will have a very low chance of making it.'
    },
    {  
       'id': '-99',
@@ -469,7 +469,7 @@ var countryList = [
    {  
       'id': 'LBR',
       'name': 'Liberia',
-      'description': ''
+      'description': 'You will lack basic sanitation, and have high chance of contracting diseases.'
    },
    {  
       'id': 'LBY',
@@ -599,7 +599,7 @@ var countryList = [
    {  
       'id': 'NOR',
       'name': 'Norway',
-      'description': ''
+      'description': 'You will enjoy the benefits of the welfare society while it lasts.'
    },
    {  
       'id': 'NPL',
@@ -654,7 +654,7 @@ var countryList = [
    {  
       'id': 'PRK',
       'name': 'North Korea',
-      'description': ''
+      'description': 'You lack basic human rights and will be brainwashed to worship the dear leader.'
    },
    {  
       'id': 'PRT',
@@ -679,7 +679,7 @@ var countryList = [
    {  
       'id': 'RUS',
       'name': 'Russia',
-      'description': ''
+      'description': 'Vodka'
    },
    {  
       'id': 'RWA',
@@ -704,7 +704,7 @@ var countryList = [
    {  
       'id': 'SSD',
       'name': 'South Sudan',
-      'description': ''
+      'description': 'In this relatively new sovereign state, you will enjoy little social stability.'
    },
    {  
       'id': 'SEN',
@@ -734,7 +734,7 @@ var countryList = [
    {  
       'id': 'SOM',
       'name': 'Somalia',
-      'description': ''
+      'description': 'You are likely to have malnutrition and die of early age.'
    },
    {  
       'id': 'SRB',
@@ -844,7 +844,7 @@ var countryList = [
    {  
       'id': 'USA',
       'name': 'United States of America',
-      'description': ''
+      'description': 'You have a high chance of getting obese.'
    },
    {  
       'id': 'UZB',
@@ -889,7 +889,7 @@ var countryList = [
    {  
       'id': 'ZWE',
       'name': 'Zimbabwe',
-      'description': ''
+      'description': 'You will live in a society with unstable economic policies.'
    }
 ];
 
