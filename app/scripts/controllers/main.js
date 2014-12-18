@@ -9,11 +9,14 @@
  */
 angular.module('lotteryOfBirthApp')
   .controller('MainCtrl', function ($scope) {
+
     $scope.mapInit = function() { 
-    	var map = new Datamap({ element: document.getElementById('map') });
+    	this.map = new Datamap({ element: document.getElementById('map') });
     };
 
-    $scope.birth = function() { 
-    	
-    }
+    $scope.birth = function() {
+    	this.map.updateChoropleth({ 
+    		CAN: '#0fa0fa'
+    	});
+    };
   });
