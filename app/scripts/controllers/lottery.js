@@ -38,7 +38,7 @@ angular.module('lotteryOfBirthApp')
       var tweetBtn = $('<a></a>')
           .addClass('twitter-share-button')
           .attr('href', 'http://twitter.com/share')
-          .attr('data-url', 'http://sungwoncho.github.io/lottery_of_birth')
+          .attr('data-url', 'https://lottery-of-birth.herokuapp.com/')
           .attr('data-text', 'I took a #LotteryOfBirth and was born in ' + chosenCountryName + '. Where will you be born?');
       $('.tweet-btn').append(tweetBtn);
       twttr.widgets.load();
