@@ -32,6 +32,17 @@ angular.module('lotteryOfBirthApp')
     	// Update the country name and description to be displayed
     	this.chosenCountryName = chosenCountryName;
     	this.chonseCountryDescription = chonseCountryDescription;
+
+      // Regenerate tweet button
+      $('.tweet-btn iframe').remove();
+      var tweetBtn = $('<a></a>')
+          .addClass('twitter-share-button')
+          .attr('href', 'http://twitter.com/share')
+          .attr('data-url', 'http://sungwoncho.github.io/lottery_of_birth')
+          .attr('data-text', 'I took a #lotteryOfBirth and was born in ' + chosenCountryName + '. Where will you be born?');
+      $('.tweet-btn').append(tweetBtn);
+      twttr.widgets.load();
+
     };
 
     $scope.updateMap = function(country) { 
