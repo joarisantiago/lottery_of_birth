@@ -34,7 +34,7 @@ var countryList = [
    {  
       'id': 'ATA',
       'name': 'Antarctica',
-      'description': ''
+      'description': 'There was a glitch in the universe and you were born as a penguin!'
    },
    {  
       'id': 'ATF',
@@ -144,7 +144,7 @@ var countryList = [
    {  
       'id': 'CHE',
       'name': 'Switzerland',
-      'description': ''
+      'description': 'You will enjoy high standards of living.'
    },
    {  
       'id': 'CHL',
@@ -179,7 +179,7 @@ var countryList = [
    {  
       'id': 'COL',
       'name': 'Colombia',
-      'description': ''
+      'description': 'In a country with high crime rate, you will have to put your dukes up for your life.'
    },
    {  
       'id': 'CRI',
@@ -204,7 +204,7 @@ var countryList = [
    {  
       'id': 'CZE',
       'name': 'Czech Republic',
-      'description': ''
+      'description': 'You will enjoy rich culture and arts that abound.'
    },
    {  
       'id': 'DEU',
@@ -249,7 +249,7 @@ var countryList = [
    {  
       'id': 'ESP',
       'name': 'Spain',
-      'description': ''
+      'description': 'You will enjoy good weather and people. Yet, chances of unemployment are high, even when you have decent qualifications.'
    },
    {  
       'id': 'EST',
@@ -299,7 +299,7 @@ var countryList = [
    {  
       'id': 'GEO',
       'name': 'Georgia',
-      'description': ''
+      'description': 'You will enjoy beautiful scenery and hidden jewels, but will suffer from social instability arising from conflicts.'
    },
    {  
       'id': 'GHA',
@@ -329,7 +329,7 @@ var countryList = [
    {  
       'id': 'GRC',
       'name': 'Greece',
-      'description': ''
+      'description': 'Rich culture awaits you, and economic hardship as well.'
    },
    {  
       'id': 'GRL',
@@ -374,7 +374,7 @@ var countryList = [
    {  
       'id': 'IND',
       'name': 'India',
-      'description': ''
+      'description': 'You will face challenges from overpopulation, lack of infrastructures.'
    },
    {  
       'id': 'IRL',
@@ -384,7 +384,7 @@ var countryList = [
    {  
       'id': 'IRN',
       'name': 'Iran',
-      'description': ''
+      'description': 'You will find very little political freedom.'
    },
    {  
       'id': 'IRQ',
@@ -394,12 +394,12 @@ var countryList = [
    {  
       'id': 'ISL',
       'name': 'Iceland',
-      'description': ''
+      'description': 'You will learn to constantly work out in gyms and have good times with food and wine in order to forget the dark.'
    },
    {  
       'id': 'ISR',
       'name': 'Israel',
-      'description': ''
+      'description': 'You will live in a constant tension with neighboring states, and sometimes be exposed to threats.'
    },
    {  
       'id': 'ITA',
@@ -409,7 +409,7 @@ var countryList = [
    {  
       'id': 'JAM',
       'name': 'Jamaica',
-      'description': ''
+      'description': 'Yah man'
    },
    {  
       'id': 'JOR',
@@ -489,7 +489,7 @@ var countryList = [
    {  
       'id': 'LTU',
       'name': 'Lithuania',
-      'description': ''
+      'description': 'You will learn to embrace the cold and enjoy stylish clothes.'
    },
    {  
       'id': 'LUX',
@@ -594,7 +594,7 @@ var countryList = [
    {  
       'id': 'NLD',
       'name': 'Netherlands',
-      'description': ''
+      'description': 'You will live in a very liberated atmosphere, but such environment also will bring social conflicts and problems.'
    },
    {  
       'id': 'NOR',
@@ -609,7 +609,7 @@ var countryList = [
    {  
       'id': 'NZL',
       'name': 'New Zealand',
-      'description': ''
+      'description': 'You will venture into awesome nature and have social safety nets.'
    },
    {  
       'id': 'OMN',
@@ -759,7 +759,7 @@ var countryList = [
    {  
       'id': 'SWE',
       'name': 'Sweden',
-      'description': ''
+      'description': 'Meatball.... Yummm!'
    },
    {  
       'id': 'SWZ',
