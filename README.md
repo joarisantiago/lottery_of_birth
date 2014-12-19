@@ -4,7 +4,7 @@ Lottery of Birth simulates your new birth and provides some interesting facts ab
 
 [Simulate birth](https://lottery-of-birth.herokuapp.com/)
 
-We do not choose our birth. Our place, time, and identity are just a consequence of an overian lottery that all human beings go through at their lives' beginning.
+We do not choose our birth. Our place, time, and identity are just consequences of an ovarian lottery that all human beings play at their lives' beginning.
 
 
 ## Contributing
