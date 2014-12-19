@@ -14,7 +14,7 @@ Lottery of Birth was written with AngularJS.
 ### How
 
 1. Fork this repository
-2. Clone it by running `git clone git@github.com:sungwoncho/lottery_of_birth.git`
+2. Clone it
 3. Make and commit the local changes
 4. Open a new pull request
 
@@ -22,3 +22,4 @@ Lottery of Birth was written with AngularJS.
 
 * Add and enhance country descriptions in the country list located in `app/scripts/services/country.js`.
 * Improve design.
+* Use weighted probability to determine the country of birth.
