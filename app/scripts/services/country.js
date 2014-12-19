@@ -114,7 +114,7 @@ var countryList = [
    {  
       'id': 'BRA',
       'name': 'Brazil',
-      'description': ''
+      'description': 'You will have a great chance to be happy.'
    },
    {  
       'id': 'BRN',
